@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/instaFollow/static/css/main.714d2f63.css",
+    "main.js": "/instaFollow/static/js/main.24448033.js",
+    "static/js/787.b701888c.chunk.js": "/instaFollow/static/js/787.b701888c.chunk.js",
+    "static/media/happy-friends-looking-social-media-smartphone.jpg": "/instaFollow/static/media/happy-friends-looking-social-media-smartphone.0f3af9c0e847b4f39f4f.jpg",
+    "static/media/pexels-lisa-fotios-1092671.jpg": "/instaFollow/static/media/pexels-lisa-fotios-1092671.eb56c7cb99bebce132c8.jpg",
+    "static/media/iranyekanweblight.woff": "/instaFollow/static/media/iranyekanweblight.714532bc6d1baf2fc117.woff",
+    "index.html": "/instaFollow/index.html",
+    "main.714d2f63.css.map": "/instaFollow/static/css/main.714d2f63.css.map",
+    "main.24448033.js.map": "/instaFollow/static/js/main.24448033.js.map",
+    "787.b701888c.chunk.js.map": "/instaFollow/static/js/787.b701888c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.714d2f63.css",
+    "static/js/main.24448033.js"
+  ]
+}
