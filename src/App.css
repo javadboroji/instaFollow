@@ -214,7 +214,10 @@ display: none;
 .fa-solid.fa-thumbs-up{
   color: #ff8a65;
 }
+.servies-header .fa-solid.fa-thumbs-up{
+  color: #ffffff;
 
+}
 /*servies*/
 
 /* price trrife */

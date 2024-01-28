@@ -11,7 +11,7 @@ export default function ({ data }) {
               <div className={item.class}>
                 <div className="servies-header" style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
                   <i className={item.icon} style={{fontSize:'14px'}}></i>
-                  <h5> {item.title}</h5>
+                  <h5 style={{marginBottom:'0'}}> {item.title}</h5>
                 </div>
                 <div className="servies-items">
                   <ul className="servies-items-inner">
