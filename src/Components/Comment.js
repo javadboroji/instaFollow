@@ -23,8 +23,8 @@ export default function Comment() {
         <Row>
           {data.Cart.Comment.tariff.map((item) => {
             return (
-              <Col className="mb-3" md={6} lg={3} key={item.header}>
-                <div className="price-header">
+              <Col className="mb-3" md={6} lg={3} key={item.header} >
+                <div className="price-header" style={{background:'#4caf50'}}>
                   <i className={item.icon}></i>
 
                   <p> {data.Cart.Comment.title}</p>

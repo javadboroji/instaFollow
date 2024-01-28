@@ -79,7 +79,7 @@ export const DataCustom={
    Cart:{
     Like:{
         title:'خرید لایک ایرانی ارزان',
-        
+        type:'like',
         tariff:[
             {header:"200 لایک ", price:" 50 هزار تومان", off:" 25 هزارتومان ",icon:"fa-solid fa-thumbs-up"},
             {header:"500 لایک ", price:" 100 هزار تومان", off:" 60 هزارتومان ",icon:"fa-solid fa-thumbs-up"},
@@ -91,7 +91,7 @@ export const DataCustom={
     },
     Comment:{
         title:'خرید کامنت  ایرانی ارزان',
-        
+        type: 'comment',
         tariff:[
             {header:"300 کامنت  ", price:" 60 هزار تومان", off:" 30 هزارتومان ",icon:"fa-solid fa-comment"},
             {header:"600 کامنت  ", price:" 120 هزار تومان", off:" 80 هزارتومان ",icon:"fa-solid fa-comment"},
