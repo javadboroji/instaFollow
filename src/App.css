@@ -1,14 +1,24 @@
 /*header-baner-description*/
 .main-header {
   background-image: url("../src/asset/image/happy-friends-looking-social-media-smartphone.jpg");
-  background-image: linear-gradient(rgba(14, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
-    url("../src/asset/image/happy-friends-looking-social-media-smartphone.jpg");
-  height: 390px;
+  min-height: 690px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  z-index: 1;
+
+}
+.main-header::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backdrop-filter: brightness(0.3);
+  z-index: -1;
+  height: 100%;
 }
 
 .btn-header {
@@ -61,6 +71,7 @@
 .info-box {
   width: 90%;
   left: 5%;
+  bottom: -12%;
   position: absolute;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -77,17 +88,28 @@
   justify-content: center;
 }
 .info-list li {
-  padding: 10px 15px;
+  padding: 10px 0;
   width: 200px;
-  margin: auto;
+  margin: auto 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-left: 1px solid #112b3c;
+  flex: 1;
+  /*border-left: 2px solid #673ab7;*/
+  position: relative;
 }
-.info-list li:last-child {
-  border-left: none;
+.info-list li::after{
+  content: '';
+  left: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #673ab7;
+}
+
+.info-list li:last-child::after {
+display: none;
 }
 .info-list li h3 {
   margin: 0px;
@@ -99,6 +121,7 @@
   color: #f66b0e;
   margin: 0px;
   padding: 0px;
+  text-align: right;
 }
 /*header-baner-description*/
 

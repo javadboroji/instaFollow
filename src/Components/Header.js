@@ -3,7 +3,7 @@ import "../App.css";
 
 export default function Header({ data }) {
   
-  const [menuMobile, setMenuMobile] = useState(true);
+  const [menuMobile, setMenuMobile] = useState(false);
 
   const menuToggle = () => {
     setMenuMobile(!menuMobile);
