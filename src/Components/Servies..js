@@ -9,8 +9,8 @@ export default function ({ data }) {
           return (
             <Col className="mt-3" key={item.title} lg={3} md={6} sm={6}>
               <div className={item.class}>
-                <div className="servies-header">
-                  <i className={item.icon}></i>
+                <div className="servies-header" style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
+                  <i className={item.icon} style={{fontSize:'14px'}}></i>
                   <h5> {item.title}</h5>
                 </div>
                 <div className="servies-items">

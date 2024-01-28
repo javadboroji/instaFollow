@@ -127,20 +127,24 @@ display: none;
 
 /* servies*/
 .servies-like {
-  background-color: #f66b0e;
+  background-color: #ff8a65;
   height: 350px;
+  border-radius: 8px;
 }
 .servies-comment {
-  background-color: #205375;
-  height: 100%;
+  background-color: #4caf50;
+  height: 350px;
+  border-radius: 8px;
 }
 .servies-follower {
-  background-color: #112b3c;
+  background-color: #3f51b5;
   height: 350px;
+  border-radius: 8px;
 }
 .servies-view {
-  background-color: blue;
+  background-color: #0277bd;
   height: 350px;
+  border-radius: 8px;
 }
 
 .servies-header {
@@ -162,12 +166,13 @@ display: none;
   margin-left: 8px;
 }
 .servies-items {
-  background-color: #efefef;
+  background-color:#fff;
   padding: 15px 5px;
   margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 8px;
 }
 .servies-items-inner {
   display: flex;
@@ -194,23 +199,27 @@ display: none;
   margin-top: 10%;
 }
 #icon-like {
-  color: #f66b0e;
+  color: #ff8a65;
 }
 #icon-follow {
-  color: #112b3c;
+  color: #3f51b5;
 }
 #icon-view {
-  color: blue;
+  color:  #0277bd;
 }
 #icon-comment {
-  color: #205375;
+  color: #4caf50;
 }
+.fa-solid.fa-thumbs-up{
+  color: #ff8a65;
+}
+
 /*servies*/
 
 /* price trrife */
 
 .price-header {
-  background-color: #f66b0e;
+  background-color: #ff8a65;
   padding: 8px;
   display: flex;
   flex-direction: column;
@@ -223,7 +232,7 @@ display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid #205375;
+  border: 1px solid #cfd8dc;
   border-radius: 0px 0px 15px 15px;
 }
 .price-description-list {
@@ -258,13 +267,17 @@ display: none;
   color: #efefef;
 }
 .price-unactive {
-  color: red;
+  color: #2962ff;
   text-decoration: line-through;
-  background-color: rgba(243, 243, 243, 0.25);
+
   width: 180px;
   margin: 10px;
   list-style: none;
 }
+.price-header .fa-solid.fa-thumbs-up{
+  color: #ffffff;
+}
+
 .price-active {
   font-weight: 700;
   background-color: rgba(228, 228, 228, 0.25);
